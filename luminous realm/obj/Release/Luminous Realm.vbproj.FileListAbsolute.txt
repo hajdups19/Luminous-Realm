@@ -1,0 +1,20 @@
+G:\My Drive\VS Projects\Luminous Realm\Luminous Realm\bin\Release\Luminous Realm.exe.config
+G:\My Drive\VS Projects\Luminous Realm\Luminous Realm\bin\Release\Luminous Realm.exe
+G:\My Drive\VS Projects\Luminous Realm\Luminous Realm\bin\Release\Luminous Realm.pdb
+G:\My Drive\VS Projects\Luminous Realm\Luminous Realm\bin\Release\Luminous Realm.xml
+G:\My Drive\VS Projects\Luminous Realm\Luminous Realm\obj\Release\Luminous Realm.vbproj.AssemblyReference.cache
+G:\My Drive\VS Projects\Luminous Realm\Luminous Realm\obj\Release\Luminous Realm.vbproj.SuggestedBindingRedirects.cache
+G:\My Drive\VS Projects\Luminous Realm\Luminous Realm\obj\Release\Luminous_Realm.FrmGame.resources
+G:\My Drive\VS Projects\Luminous Realm\Luminous Realm\obj\Release\Luminous_Realm.FrmStage2.resources
+G:\My Drive\VS Projects\Luminous Realm\Luminous Realm\obj\Release\Luminous_Realm.FrmTitle.resources
+G:\My Drive\VS Projects\Luminous Realm\Luminous Realm\obj\Release\Luminous_Realm.Resources.resources
+G:\My Drive\VS Projects\Luminous Realm\Luminous Realm\obj\Release\Luminous Realm.vbproj.GenerateResource.cache
+G:\My Drive\VS Projects\Luminous Realm\Luminous Realm\obj\Release\Luminous Realm.vbproj.CoreCompileInputs.cache
+G:\My Drive\VS Projects\Luminous Realm\Luminous Realm\obj\Release\Luminous Realm.exe
+G:\My Drive\VS Projects\Luminous Realm\Luminous Realm\obj\Release\Luminous Realm.xml
+G:\My Drive\VS Projects\Luminous Realm\Luminous Realm\obj\Release\Luminous Realm.pdb
+G:\My Drive\VS Projects\Luminous Realm\Luminous Realm\bin\Release\Newtonsoft.Json.dll
+G:\My Drive\VS Projects\Luminous Realm\Luminous Realm\bin\Release\Newtonsoft.Json.xml
+G:\My Drive\VS Projects\Luminous Realm\Luminous Realm\obj\Release\Luminous_Realm.FrmCreate.resources
+G:\My Drive\VS Projects\Luminous Realm\Luminous Realm\obj\Release\Luminous_Realm.FrmSaves.resources
+G:\My Drive\VS Projects\Luminous Realm\Luminous Realm\obj\Release\Luminous Realm.vbproj.CopyComplete

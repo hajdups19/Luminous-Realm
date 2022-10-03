@@ -1,0 +1,19 @@
+G:\My Drive\VS Projects\Luminous Realm indev\Luminous Realm\obj\x64\Release\Luminous Realm.vbprojAssemblyReference.cache
+G:\My Drive\VS Projects\Luminous Realm indev\Luminous Realm\obj\x64\Release\Luminous Realm.xml
+G:\My Drive\VS Projects\Luminous Realm indev\Luminous Realm\obj\x64\Release\Luminous_Realm.FrmBoss.resources
+G:\My Drive\VS Projects\Luminous Realm indev\Luminous Realm\obj\x64\Release\Luminous_Realm.FrmMountain.resources
+G:\My Drive\VS Projects\Luminous Realm indev\Luminous Realm\obj\x64\Release\Luminous_Realm.FrmCreate.resources
+G:\My Drive\VS Projects\Luminous Realm indev\Luminous Realm\obj\x64\Release\Luminous_Realm.FrmGame.resources
+G:\My Drive\VS Projects\Luminous Realm indev\Luminous Realm\obj\x64\Release\Luminous_Realm.FrmSaves.resources
+G:\My Drive\VS Projects\Luminous Realm indev\Luminous Realm\obj\x64\Release\Luminous_Realm.FrmStage2.resources
+G:\My Drive\VS Projects\Luminous Realm indev\Luminous Realm\obj\x64\Release\Luminous_Realm.frmStage3.resources
+G:\My Drive\VS Projects\Luminous Realm indev\Luminous Realm\obj\x64\Release\Luminous_Realm.FrmStage4.resources
+G:\My Drive\VS Projects\Luminous Realm indev\Luminous Realm\obj\x64\Release\Luminous_Realm.FrmStage5.resources
+G:\My Drive\VS Projects\Luminous Realm indev\Luminous Realm\obj\x64\Release\Luminous_Realm.FrmTitle.resources
+G:\My Drive\VS Projects\Luminous Realm indev\Luminous Realm\obj\x64\Release\Luminous_Realm.FrmVerification.resources
+G:\My Drive\VS Projects\Luminous Realm indev\Luminous Realm\obj\x64\Release\Luminous_Realm.FrmLevel2.resources
+G:\My Drive\VS Projects\Luminous Realm indev\Luminous Realm\obj\x64\Release\Luminous_Realm.FrmLevel3.resources
+G:\My Drive\VS Projects\Luminous Realm indev\Luminous Realm\obj\x64\Release\Luminous_Realm.FrmLevel4.resources
+G:\My Drive\VS Projects\Luminous Realm indev\Luminous Realm\obj\x64\Release\Luminous_Realm.FrmLevel5.resources
+G:\My Drive\VS Projects\Luminous Realm indev\Luminous Realm\obj\x64\Release\Luminous_Realm.FrmLevel1.resources
+G:\My Drive\VS Projects\Luminous Realm indev\Luminous Realm\obj\x64\Release\Luminous Realm.vbproj.GenerateResource.cache
