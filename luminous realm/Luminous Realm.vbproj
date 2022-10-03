@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6DFAF8C6-B84D-40BF-86B1-4B9974342334}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Luminous_Realm.My.MyApplication</StartupObject>
+    <RootNamespace>Luminous_Realm</RootNamespace>
+    <AssemblyName>Luminous Realm</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Luminous Realm.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Luminous Realm.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>Luminous Realm.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>Luminous Realm.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Stages\FrmBoss.Designer.vb">
+      <DependentUpon>FrmBoss.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stages\FrmBoss.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stages\FrmMountain.Designer.vb">
+      <DependentUpon>FrmMountain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stages\FrmMountain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCreate.Designer.vb">
+      <DependentUpon>FrmCreate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCreate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSaves.Designer.vb">
+      <DependentUpon>FrmSaves.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSaves.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stages\FrmStage3.Designer.vb">
+      <DependentUpon>FrmStage3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stages\FrmStage3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stages\FrmStage4.Designer.vb">
+      <DependentUpon>FrmStage4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stages\FrmStage4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stages\FrmStage5.Designer.vb">
+      <DependentUpon>FrmStage5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stages\FrmStage5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVerification.Designer.vb">
+      <DependentUpon>FrmVerification.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVerification.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game.vb" />
+    <Compile Include="Stages\FrmGame.Designer.vb">
+      <DependentUpon>FrmGame.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stages\FrmGame.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stages\FrmStage2.Designer.vb">
+      <DependentUpon>FrmStage2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stages\FrmStage2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTitle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTitle.Designer.vb">
+      <DependentUpon>FrmTitle.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Levels\FrmLevel1.Designer.vb">
+      <DependentUpon>FrmLevel1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Levels\FrmLevel1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Levels\FrmLevel2.Designer.vb">
+      <DependentUpon>FrmLevel2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Levels\FrmLevel2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Levels\FrmLevel3.Designer.vb">
+      <DependentUpon>FrmLevel3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Levels\FrmLevel3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Levels\FrmLevel4.Designer.vb">
+      <DependentUpon>FrmLevel4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Levels\FrmLevel4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Levels\FrmLevel5.Designer.vb">
+      <DependentUpon>FrmLevel5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Levels\FrmLevel5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Stages\FrmBoss.resx">
+      <DependentUpon>FrmBoss.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stages\FrmMountain.resx">
+      <DependentUpon>FrmMountain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCreate.resx">
+      <DependentUpon>FrmCreate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stages\FrmGame.resx">
+      <DependentUpon>FrmGame.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSaves.resx">
+      <DependentUpon>FrmSaves.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stages\FrmStage2.resx">
+      <DependentUpon>FrmStage2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stages\frmStage3.resx">
+      <DependentUpon>FrmStage3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stages\FrmStage4.resx">
+      <DependentUpon>FrmStage4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stages\FrmStage5.resx">
+      <DependentUpon>FrmStage5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTitle.resx">
+      <DependentUpon>FrmTitle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVerification.resx">
+      <DependentUpon>FrmVerification.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Levels\FrmLevel2.resx">
+      <DependentUpon>FrmLevel2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Levels\FrmLevel3.resx">
+      <DependentUpon>FrmLevel3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Levels\FrmLevel4.resx">
+      <DependentUpon>FrmLevel4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Levels\FrmLevel5.resx">
+      <DependentUpon>FrmLevel5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Levels\FrmLevel1.resx">
+      <DependentUpon>FrmLevel1.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\resources\PAPlayer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\invalid_texture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\angel_statue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\noteboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\stage2_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\stage4_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\male_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\female_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\clear_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\top_gate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\stage3_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\gravestone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\gate_locked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\solbound_sword_shrine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\trapped_sol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\deactivated_portal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\old_man.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\hall_of_sols_key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\platformer_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\stage5_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\normal_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\hard_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\master_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\desk2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\luminous realm icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\authunit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\background_submenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\Illuminant_Duke.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\health_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\stamina_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\player_male_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\health_bar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\stamina_bar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\boss_bar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x64\Release\resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
