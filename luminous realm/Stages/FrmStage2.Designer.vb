@@ -130,7 +130,7 @@ Partial Class FrmStage2
         'picBottomDoor
         '
         Me.picBottomDoor.BackColor = System.Drawing.Color.Transparent
-        Me.picBottomDoor.BackgroundImage = Global.Luminous_Realm.My.Resources.Resources.gate_lockednokey
+        Me.picBottomDoor.BackgroundImage = Global.Luminous_Realm.My.Resources.Resources.gate_locked
         Me.picBottomDoor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.picBottomDoor.Location = New System.Drawing.Point(350, 380)
         Me.picBottomDoor.Name = "picBottomDoor"
