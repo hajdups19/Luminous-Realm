@@ -118,9 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="male_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\x64\Release\resources\male_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="noteboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\x64\Release\resources\noteboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -143,7 +140,7 @@
     <value>..\bin\x64\Release\resources\gate_unlocked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Button" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\resources\Button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\bin\x64\Release\resources\Button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="background_submenu1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\x64\Release\resources\background_submenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -165,9 +162,6 @@
   </data>
   <data name="computer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\x64\Release\resources\computer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="female_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\x64\Release\resources\female_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="boss_bar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\x64\Release\resources\boss_bar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -211,9 +205,6 @@
   <data name="hall_of_sols_key" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\x64\Release\resources\hall_of_sols_key.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PAPlayer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\resources\PAPlayer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Room_template" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\x64\Release\resources\Room_template.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -224,7 +215,7 @@
     <value>..\bin\x64\Release\resources\main menu\titlebackground10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TitleScreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\resources\TitleScreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\bin\x64\Release\resources\TitleScreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="door" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\x64\Release\resources\door.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -244,9 +235,6 @@
   <data name="lock_locked" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\x64\Release\resources\lock_locked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TitleScreenBasic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\resources\TitleScreenBasic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="master_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\x64\Release\resources\master_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -260,13 +248,13 @@
     <value>..\bin\x64\Release\resources\stage4_background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Luminous Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\resources\Luminous Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\bin\x64\Release\resources\Luminous Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="stamina_bar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\x64\Release\resources\stamina_bar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TitleScreenVeryBasic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\resources\TitleScreenVeryBasic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\bin\x64\Release\resources\TitleScreenVeryBasic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="clear_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\x64\Release\resources\clear_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -285,8 +273,5 @@
   </data>
   <data name="deactivated_portal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\x64\Release\resources\deactivated_portal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="gate_lockednokey" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\x64\Release\resources\gate_lockednokey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
